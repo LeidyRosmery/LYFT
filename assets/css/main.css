@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.presentacion{
+  width: 100%;
+  position: relative;
+  background-image: url(../img/fondo.png);
+background-repeat: no-repeat;
+background-size: 100%;
+height: 550px;
+}
+.inicio{
+  position: fixed;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  z-index: 20;
+/*  display: none;*/
+  height: 115px;
+}
+.inicio a{
+  text-decoration: none;
+  color: #fff;
+
+}
+.turn{
+  width: 600px;
+  height: 435px;
+  position: absolute;
+  right: 0;
+  background: #fff;
+  top: 115px;
+}
+
+.imagen img{
+  width: 65px;
+  height: 45px;
+}
+.ride{
+  background: skyblue;
+  position: relative;
+  width: 100%;
+  height: 630px;
+}
+.you-ride{
+  background: brown;
+  position: relative;
+  width: 100%;
+  height: 490px;
+}
+.june{
+  background: green;
+  position: relative;
+  height: 490px;
+}
+.good-thing{
+  background: yellow;
+  position: relative;
+  height: 490px;
+}
+.now-live{
+  background: red;
+  height: 635px;
+  position: relative;
+}
+.pie-pagina{
+  background: purple;
+  height: 600px;
+  position: relative;
+}
+
+.derecha , .izquierda {
+  position: absolute;
+  height: 100%;
+
+}
+
+.izquierda{
+  width:  34%;
+
+}
+.derecha {
+  left:  34%;
+
+  width: 66%;
+}
+
+.derecha iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.izquierda-june , .derecha-june{
+  position: absolute;
+  height: 100%;
+}
+.izquierda-june{
+  width: 66%;
+
+}
+.derecha-june {
+  left: 66%;
+  width: 34%;
+  background: blue;
+}
+.izquierda-june iframe{
+  width: 100%;
+  height: 100%;
+}
+.izquierda-now , .derecha-now {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+.derecha-now{
+  left: 50%;
+  background: black;
+}
