@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
+  font-family: "Montserrat";
+  text-align: justify;
 }
 .presentacion{
   width: 100%;
@@ -39,36 +41,53 @@ height: 550px;
   height: 45px;
 }
 .ride{
-  background: skyblue;
+  background: linear-gradient(#76278F , #2B1E66);
   position: relative;
   width: 100%;
   height: 630px;
 }
 .you-ride{
-  background: brown;
+
   position: relative;
   width: 100%;
   height: 490px;
+
+}
+
+.inicio-parrafo{
+  padding-left:   75px;
+  padding-top: 150px;
+  text-align: left;
+}
+.inicio-parrafo + p {
+  font-weight: bold;
+      padding: 10px 75px;
+      text-align: left;
+}
+.contenido {
+  padding: 10px 75px;
+  text-align: justify;
 }
 .june{
-  background: green;
+
   position: relative;
   height: 490px;
 }
 .good-thing{
-  background: yellow;
+
   position: relative;
   height: 490px;
 }
 .now-live{
-  background: red;
+
   height: 635px;
   position: relative;
 }
 .pie-pagina{
-  background: purple;
-  height: 600px;
+background: #333447;
+  height: 510px;
   position: relative;
+  color: #fff;
 }
 
 .derecha , .izquierda {
@@ -80,6 +99,9 @@ height: 550px;
 .izquierda{
   width:  34%;
 
+}
+li{
+  list-style-type: none;
 }
 .derecha {
   left:  34%;
@@ -103,18 +125,85 @@ height: 550px;
 .derecha-june {
   left: 66%;
   width: 34%;
-  background: blue;
+
 }
 .izquierda-june iframe{
   width: 100%;
   height: 100%;
 }
-.izquierda-now , .derecha-now {
+.izquierda-now , .derecha-now , .dow-now {
   position: absolute;
   width: 50%;
-  height: 100%;
+  height: 60%;
 }
 .derecha-now{
   left: 50%;
-  background: black;
+}
+
+.izquierda-ride, .derecha-ride{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  color: white;
+
+}
+.titulo-texto{
+  padding-top: 40px;
+  padding-left: 150px;
+  padding-right: 30px;
+  font-size: 30px;
+}
+#cabeza{
+  padding-top: 130px;
+
+}
+.titulo-texto+p{
+
+  padding-left: 150px;
+  padding-right: 30px;
+}
+.derecha-ride{
+  left: 50%;
+  background: green,
+}
+.derecha-ride img{
+  width: 100%;
+      padding: 137px 23px;
+  height: 100%;
+}
+.dow-now{
+  top: 60%;
+  width: 100%;
+  height: 40%;
+  background: purple;
+}
+.primero , .segundo , .tercero , .cuarto , .quinto {
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.cuarto img {
+  width: 120px;
+  height: 45px;
+  padding: 5px 0;
+}
+.segundo{
+  left: 20%;
+}
+.tercero{
+  left: 40%;
+}
+.cuarto{
+  left: 60%;
+  width: 40%;
+  padding-left: 350px;;
+}
+.quinto{
+  width: 100%;
+  height: 40%;
+  top: 60%;
+
+  position: absolute;
 }
