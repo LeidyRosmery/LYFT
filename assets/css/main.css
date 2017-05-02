@@ -16,8 +16,8 @@ height: 550px;
 .inicio{
   position: fixed;
   width: 100%;
-  background: #000;
-  color: #fff;
+  /*background: #fff;*/
+  color: black;
   z-index: 20;
 /*  display: none;*/
   height: 115px;
@@ -25,17 +25,35 @@ height: 550px;
 .inicio a{
   text-decoration: none;
   color: #fff;
-
+display: inline-block;
+margin-left: 25px;
+font-size: 30px,
 }
 .turn{
   width: 600px;
   height: 435px;
   position: absolute;
   right: 0;
+  padding-top: 40px;
+padding-left: 32px;
   background: #fff;
   top: 115px;
 }
-
+.imagen{
+  display: inline-block;
+  width: 65px;
+  position: absolute;
+  height: 45px;
+  left: 107px;
+  top: 35px;
+}
+.enlaces{
+  display: inline-block;
+  position: absolute;
+  top: 42px;
+  left: 807px;
+  width: 400px;
+}
 .imagen img{
   width: 65px;
   height: 45px;
@@ -156,6 +174,53 @@ li{
 #cabeza{
   padding-top: 130px;
 
+}
+.turn a{
+  color: gray;
+padding: 60px;
+
+}
+input {
+display: block;
+border: none;
+width: 450px;
+height: 70px;
+border-bottom: 1px solid #707274;
+}
+
+input[type='button'] {
+    width: 20px;
+background: #FF00BF;
+color: #fff;
+width: 170px;
+border-radius: 8px;
+margin-top:  25px ;
+display: inline-block;
+height: 50px;
+font-size: 20px;
+font-weight: 350px;
+text-align: center;
+}
+
+.turn > span{
+  color : #352384;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 50px,
+}
+
+.turn p span{
+  color: #FF00BF;
+  font-size: 10px;
+
+}
+.turn p {
+  color: gray;
+      font-size: 10px;
+      padding: 7px;
+}
+.turn :last-child span{
+font-weight: 200px;
 }
 .titulo-texto+p{
 
