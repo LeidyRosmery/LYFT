@@ -68,7 +68,7 @@ window.addEventListener("scroll", function() {
     } else {
         if (currentScroll <= 3) {
             login.style.border = "#fff solid 1px";
-            sign.style.left = " 163px";
+            sign.style.left = " 212px";
             logo.src = "assets/img/logo-white.png";
             menu[0].style.background = "transparent";
             item[0].style.color = "#fff";
